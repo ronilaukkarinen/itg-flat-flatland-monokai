@@ -1,5 +1,5 @@
-# itg.flat - Flatland Monokai Atom theme hybrid
+# itg-flat-flatland-monokai theme
 
-Fork of [Flatland Monokai](https://github.com/samrose3/flatland-monokai) theme which is a fork of Monokai theme by [Kevin Sawicki](https://github.com/kevinsawicki/monokai).
+A short description of your theme.
 
-Best fit with [itg Flat Dark](https://github.com/itsthatguy/atom-itg-flat) UI theme.
+![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)

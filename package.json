@@ -1,12 +1,15 @@
 {
-  "name": "itg-flat-flatland-Monokai",
+  "name": "itg-flat-flatland-monokai",
   "theme": "syntax",
-  "version": "0.16.0",
-  "private": true,
-  "description": "A monokai theme inspired by itg.Flat and Flatland",
-  "repository": "https://github.com/ronilaukkarinen/itg-flat-flatland-monokai",
+  "version": "0.0.0",
+  "description": "A short description of your syntax theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/itg-flat-flatland-monokai",
   "license": "MIT",
   "engines": {
-    "atom": ">0.39.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
