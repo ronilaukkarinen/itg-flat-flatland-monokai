@@ -1,0 +1,39 @@
+// Ruby
+
+.source.ruby {
+    .keyword.control.def {
+        color: @magenta;
+    }
+
+    .punctuation.definition.variable {
+        color: @syntax-text-color;
+    }
+
+    .meta.function.method.with-arguments {
+        color: @orange;
+    }
+
+    .support.function.kernel {
+        color: @blue;
+    }
+
+    .variable {
+        &.parameter.function {
+            color: @orange;
+        }
+        &.other {
+            &.readwrite.instance {
+                // color: @blue;
+            }
+            &.constant {
+                // color: @orange;
+            }
+        }
+    }
+}
+
+.string.regexp {
+    .source.ruby.embedded {
+        color: @orange;
+    }
+}

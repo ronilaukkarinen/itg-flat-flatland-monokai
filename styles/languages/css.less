@@ -1,0 +1,83 @@
+// CSS
+
+.entity {
+    &.name.tag.css {
+        color: @green;
+    }
+    &.other.attribute-name {
+        &.class {
+            &.css {
+                color: @magenta;
+            }
+            &.mixin.css {
+                color: @green;
+            }
+        }
+        &.id.css {
+            color: @magenta;
+            font-weight: bold;
+        }
+        &.parent-selector.css {
+            color: @purple;
+        }
+        &.pseudo-element.css {
+            color: @magenta;
+        }
+    }
+}
+
+.constant {
+    &.property-value.css {
+        color: @green;
+    }
+}
+
+.keyword.control {
+    &.import.option.less {
+        color: @purple;
+    }
+}
+
+.meta {
+    .at-rule.import.css {
+        color: @orange;
+    }
+    .property-list.css {
+        color: @blue;
+    }
+}
+
+.punctuation {
+    &.section.css {
+        color: @syntax-text-color;
+    }
+    &.definition.entity.css {
+        color: @blue;
+    }
+    &.definition.keyword.less {
+        color: @orange;
+    }
+    &.separator.key-value.css {
+        color: @blue;
+    }
+}
+
+.support {
+    &.function.any-method.builtin{
+        &.css {
+            color: @green;
+        }
+        &.less {
+            color: @magenta;
+        }
+    }
+    &.type.property-name.css {
+        color: @syntax-text-color;
+    }
+}
+
+.variable {
+    &.parameter.misc.css {
+        color: @blue;
+    }
+}

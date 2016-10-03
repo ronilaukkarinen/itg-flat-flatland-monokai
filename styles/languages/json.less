@@ -1,0 +1,44 @@
+// JSON
+
+.source.json {
+    .meta {
+        &.structure.dictionary {
+            color: @magenta;
+            &.value {
+                color: @blue;
+            }
+            & > .string.quoted {
+                & > .punctuation.string {
+                    color: @yellow;
+                }
+                color: @magenta;
+            }
+        }
+
+        &.structure.dictionary.json, &.structure.array.json {
+            & > .value.json > .string.quoted.json,
+            & > .value.json > .string.quoted.json > .punctuation {
+                color: @syntax-text-color;
+            }
+
+            & > .constant.language.json {
+                color: @purple;
+            }
+        }
+    }
+
+    .punctuation {
+        &.definition.dictionary {
+            color: @syntax-text-color;
+        }
+        &.separator.dictionary.key-value {
+        color: @blue;
+        }
+    }
+
+    .string {
+        &.quoted.double {
+            color: @purple;
+        }
+    }
+}

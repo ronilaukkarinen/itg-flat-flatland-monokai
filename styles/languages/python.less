@@ -1,0 +1,41 @@
+// Python
+
+.source.python {
+    .keyword {
+        &.operator.logical {
+            color: @blue;
+        }
+        &.other {
+            color: @blue;
+        }
+    }
+
+    .variable {
+        color: @blue;
+        font-style: italic;
+        &.parameter {
+            color: @orange;
+            font-style: normal;
+        }
+    }
+}
+
+.entity.name.function.python {
+    color: @green;
+}
+
+.meta {
+    &.function.python {
+        color: @magenta;
+    }
+}
+
+.support {
+    &.function.builtin.python {
+        color: @purple;
+    }
+}
+
+.storage.type.function.python {
+    color: @blue;
+}
