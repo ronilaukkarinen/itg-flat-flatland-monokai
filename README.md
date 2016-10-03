@@ -4,4 +4,8 @@ Fork of [Flatland Monokai](https://github.com/samrose3/flatland-monokai) theme w
 
 Best fit with [itg Flat Dark](https://github.com/itsthatguy/atom-itg-flat) UI theme.
 
-![Screenshot](https://dl.dropboxusercontent.com/u/18447700/atom-settings-apr16.png "Look how sexy I am.")
+![Screenshot](https://dl.dropboxusercontent.com/u/18447700/atom-settings-apr16.png "With Itg Flat Dark UI.")
+With Itg Flat Dark UI.
+
+![Screenshot](https://dl.dropboxusercontent.com/u/18447700/atom-settings-oct-2016.png "With Genesis UI.")
+With Genesis UI.
